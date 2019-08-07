@@ -74,7 +74,7 @@ def start():
                     threading.Thread(target=run_service,
                                      args=(service_class, module_, phone, country_code, phone_code, sms_text,
                                            'sms')).start()
-        return '(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧'
+        return 'input:'
     except (ValueError, KeyError):
         abort(400)
 
